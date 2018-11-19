@@ -26,7 +26,7 @@ nav a {}
 
 a.menu {
 	display: inline-block;
-	width: 20%;
+	width: 25%;
 	padding: 10px;
 	color: black;
 	text-align: center;
@@ -40,6 +40,7 @@ article {
 
 article h1 {
 	font-size: 30px;
+	font-weight: 700;
 	text-align: center;
 	padding:20px 0px 20px 0px;
 	margin: 0 10% 50px 10%;
@@ -51,6 +52,7 @@ article p {
 	margin-top: 20px;
 	margin-bottom: 20px;
 	text-align: justify;
+	line-height: 2;
 }
 
 
@@ -59,6 +61,23 @@ article img {
 	display: block;
 	margin:0px 15% 0px 15%;
 }
+article ul {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: justify;
+	text-align: center;
+	padding: 0 10% 20px 10%;
+	line-height: 2;
+}
+article ul img {
+	margin: 20px 0 0 0;
+	width: 100%;
+}
+#zrodlo {
+	font-size: 12px;
+	font-style: italic;
+}
+	
 
 footer {
 	background-color: lightgray;
