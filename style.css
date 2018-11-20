@@ -4,6 +4,7 @@
 	font-family:Source Sans Pro, arial;
 	box-sizing: border-box;	
 }
+
 body{
 	background-color: dimgray;
 }
@@ -22,17 +23,15 @@ nav {
 	background-color: lightgray;
 }
 
-nav a {}
-
 a.menu {
 	display: inline-block;
 	width: 25%;
 	padding: 10px;
 	color: black;
 	text-align: center;
-	text-decoration: none;
-	
+	text-decoration: none;	
 }
+
 article {
 	margin-top: 30 px;
 	margin-bottom: 20px;
@@ -55,34 +54,38 @@ article p {
 	line-height: 2;
 }
 
-
 article img {
 	width: 70%;
 	display: block;
 	margin:0px 15% 0px 15%;
 }
+
 article ul {
 	margin-top: 20px;
 	margin-bottom: 20px;
-	text-align: justify;
-	text-align: center;
+	text-align: justify;	
 	padding: 0 10% 20px 10%;
 	line-height: 2;
 }
+
 article ul img {
-	margin: 20px 0 0 0;
+	margin: 20px 0 20px 0;
 	width: 100%;
 }
+
+article li {
+	position:relative;
+	left:35%;	
+}
+
 #zrodlo {
 	font-size: 12px;
 	font-style: italic;
 }
 	
-
 footer {
 	background-color: lightgray;
 	text-align: center;
-	padding: 10px;
-	
+	padding: 10px;	
 }
 	
